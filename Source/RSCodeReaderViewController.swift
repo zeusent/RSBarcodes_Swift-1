@@ -398,7 +398,7 @@ open class RSCodeReaderViewController: UIViewController, AVCaptureMetadataOutput
 					if transformedMetadataObject.isKind(of: AVMetadataMachineReadableCodeObject.self) {
 						let barcodeObject = transformedMetadataObject as! AVMetadataMachineReadableCodeObject
 						barcodeObjects.append(barcodeObject)
-						cornersArray.append(barcodeObject.corners)
+//						cornersArray.append(barcodeObject.corners)
 					}
 				}
 			}
